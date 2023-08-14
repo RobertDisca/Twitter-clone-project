@@ -1,0 +1,42 @@
+.commentPost {
+    display: flex;
+    border: 1px solid rgb(203, 199, 199);
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.commentContent {
+    height: auto;
+}
+
+/* .commentAvatar .MuiAvatar-root {
+    width: 2rem;
+    height: 2rem;
+} */
+
+.commentUserProfile {
+    display: flex;
+    align-items: center;
+}
+
+.commentUserProfile p {
+    font-weight: bold;
+    margin: 0 5px 5px 5px;
+    font-size: 0.9rem;
+}
+
+.commentUserProfile span {
+    font-weight: 600;
+    font-size: 0.8rem;
+    margin-bottom: 5px;
+    color: gray;
+}
+
+.commentContent p {
+    margin: 0 0 0 5px;
+    font-size: 0.9rem;
+    max-width: 400px;
+    word-wrap: break-word;
+    /* max-width: 100%; */
+}

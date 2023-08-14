@@ -1,0 +1,9 @@
+.commentIcon {
+    cursor: pointer;
+}
+
+.commentIcon .MuiSvgIcon-root:hover {
+    background-color: #e0edf6;
+    color: #359bf0;
+    border-radius: 100%;
+}

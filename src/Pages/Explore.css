@@ -1,0 +1,61 @@
+.explore {
+    display: flex;
+    width: 100%;
+}
+
+.exploreContentPage {
+    margin-left: 291px;
+    width: 60%;
+    height: 100vh;
+}
+.exploreContentPage .backgroundSearch {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-right: 1px solid var(--twitter-hover);
+    padding: 1rem 5px 5px 5px;
+}
+.backgroundSearch {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.backgroundSearch .widgetsInput {
+    width: 100%;
+}
+
+.backgroundSearch .widgetsInput .MuiSvgIcon-root {
+    cursor: pointer;
+}
+.explorePostPage {
+    border-right: 1px solid var(--twitter-hover);
+}
+
+.exploreTitle {
+    border-right: 1px solid var(--twitter-hover);
+}
+
+.exploreTitle h3 {
+    margin: 0;
+    padding: 1rem;
+}
+.exploreWidgetsMedia {
+    width: 380px;
+}
+
+@media screen and (max-width: 1200px) {
+    .exploreContentPage {
+        margin-left: 106px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .exploreWidgetsMedia {
+        display: none;
+    }
+
+    .exploreContentPage {
+        width: 100%;
+    }
+}

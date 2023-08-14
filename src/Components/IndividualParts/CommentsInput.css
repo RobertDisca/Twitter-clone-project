@@ -1,0 +1,68 @@
+.commentsModal {
+    border-top: 2px solid var(--twitter-hover);
+}
+
+/* .formComments {
+    width: 100%;
+} */
+
+.formComments {
+    width: 100%;
+}
+
+.commentsModal form {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.commentsBoxInput {
+    padding: 10px;
+    display: flex;
+}
+
+.commentsBoxInput input {
+    margin-left: 10px;
+    font-size: 0.8rem;
+    border: none;
+    outline: none;
+    background-color: unset;
+    width: 100%;
+}
+
+.commentsMediaBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--twitter-color);
+    opacity: 80%;
+}
+
+/* .commentsModalContent {
+    background-color: #fefefe;
+    border-radius: 20px;
+    border: 1px solid #888;
+} */
+
+.commentsMediaBox .MuiSvgIcon-root {
+    /* margin-right: 10px; */
+    font-size: 20px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.commentsMediaBox .MuiSvgIcon-root:hover {
+    background-color: #e7f4fd;
+    border-radius: 100px;
+}
+
+.commentsMediaBox .commentsBoxButton {
+    background-color: var(--twitter-color) !important;
+    border: none !important;
+    color: white !important;
+    font-weight: 800 !important;
+    text-transform: inherit !important;
+    border-radius: 20px !important;
+    height: 30px !important;
+    max-width: 80px;
+    margin-right: 10px;
+}

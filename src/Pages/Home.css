@@ -1,0 +1,15 @@
+.home {
+    display: flex;
+    height: 100vh;
+    max-width: 1400px;
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0;
+}
+
+@media screen and (max-width: 1000px) {
+    .widgetsHomePage {
+        display: none;
+    }
+}

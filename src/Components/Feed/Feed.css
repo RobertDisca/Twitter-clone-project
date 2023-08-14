@@ -1,0 +1,68 @@
+.feed {
+    margin-left: 291px;
+    /* flex: 1; */
+    /* min-width: 45%; */
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    border-right: 1px solid var(--twitter-hover);
+}
+
+.feed::-webkit-scrollbar {
+    display: none;
+}
+
+.feedHeader {
+    flex: 0.7;
+    width: 100%;
+    border-right: 1px solid var(--twitter-hover);
+    top: 0;
+    background-color: white;
+    border-bottom: 1px solid var(--twitter-hover);
+}
+
+.feedHeader h2 {
+    font-size: 20px;
+    font-weight: 800;
+    padding-left: 0.8rem;
+}
+
+.functionalHome {
+    display: flex;
+}
+
+.functionalHome p {
+    color: gray;
+}
+
+.functionalHome .forYou,
+.following {
+    width: 50%;
+    text-align: center;
+}
+
+.functionalHome--active {
+    color: var(--twitter-color);
+    font-weight: 700;
+}
+
+.following:hover,
+.forYou:hover {
+    background-color: var(--twitter-hover);
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+    .feed {
+        margin-left: 104px;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .feed {
+        flex: 1;
+    }
+}

@@ -1,0 +1,385 @@
+.leftPart {
+    border-right: 1px solid var(--twitter-hover);
+    flex: 0.2;
+    min-width: 250px;
+    position: fixed;
+    margin: auto;
+    height: 100vh;
+    top: 0;
+    padding: 20px;
+    z-index: 1;
+}
+
+.leftPart a {
+    text-decoration: unset;
+    color: black;
+}
+.leftPart .twitterIcon {
+    color: var(--twitter-color);
+    font-size: 30px !important;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.leftPart .buttonTweet {
+    background-color: var(--twitter-color) !important;
+    border: none !important;
+    color: white !important;
+    font-weight: 800 !important;
+    text-transform: inherit !important;
+    border-radius: 30px !important;
+    height: 50px !important;
+    margin-top: 20px !important;
+}
+
+.leftPart .avatarProfile {
+    margin-right: 10px;
+}
+
+.leftPart .profileUser {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    width: 250px;
+    position: absolute;
+    bottom: 60px;
+}
+
+.leftPart .profileUser:hover {
+    background-color: var(--twitter-hover);
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.leftPart p.nameProfile {
+    font-size: 14px;
+    margin: 0;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.leftPart p.userProfile {
+    font-size: 14px;
+    margin: 0;
+    color: grey;
+    margin-top: 2px;
+}
+
+.leftPart .profileUser .MuiSvgIcon-root {
+    margin-left: 60px;
+    cursor: pointer;
+}
+
+.verifiedBottom {
+    position: relative;
+}
+
+.modalVerified {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalContentVerified {
+    width: 40%;
+    height: 60%;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.boxVerifiedContent {
+    margin: 0 2rem 2rem 2rem;
+}
+
+.textModal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px;
+}
+.closeIconVerified {
+    cursor: pointer;
+}
+.closeIconVerified .MuiSvgIcon-root {
+    padding: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.closeIconVerified .MuiSvgIcon-root:hover {
+    background-color: var(--twitter-hover);
+    border-radius: 100%;
+}
+.textModalVerified {
+    text-align: center;
+}
+.textModalVerified h1 {
+    margin-top: 0;
+}
+
+.textModalVerified p {
+    font-size: 0.9rem;
+}
+
+.descriptionVerified {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.descriptionVerifiedContent {
+    width: 50%;
+    border-radius: 1rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    cursor: pointer;
+}
+
+.descriptionVerifiedContent:hover {
+    background-color: #f7f9f9;
+}
+
+.descriptionVerified h4 {
+    margin: 5px 0;
+}
+
+.descriptionVerified p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+    color: #536471;
+}
+
+.verifiedButton {
+    width: 100%;
+    text-align: center;
+    background-color: #272c30;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.verifiedButton p {
+    margin: 0;
+    padding: 10px 0;
+    color: white;
+    font-weight: bold;
+}
+
+.verifiedBottom {
+    font-size: 0.9rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.verifiedBottom a {
+    color: var(--twitter-color);
+}
+
+.modalBackground {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalTweetDirect {
+    width: 40%;
+    height: 40%;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.closeIconComm .MuiSvgIcon-root {
+    padding: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.closeIconComm .MuiSvgIcon-root:hover {
+    background-color: var(--twitter-hover);
+    border-radius: 100%;
+}
+
+.modalProfile {
+    background-color: white;
+    border-radius: 1rem;
+    padding: 1rem 0;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    bottom: 7rem;
+    left: 3rem;
+    min-width: 200px;
+}
+
+.modalProfile p {
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px;
+}
+
+.modalProfile p:hover {
+    background-color: #f7f7f7;
+    cursor: pointer;
+}
+
+.modalOverlayProfile {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    z-index: -10;
+}
+.moreOptions {
+    position: relative !important;
+}
+.modalMore {
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    bottom: 21rem;
+    left: 3rem;
+    min-width: 200px;
+    padding: 1rem 0;
+}
+
+.moreContentText {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding-left: 1rem;
+}
+
+.moreContentText h3 {
+    padding: 1rem;
+    margin: 0;
+}
+
+.moreContentText:hover {
+    cursor: pointer;
+    background-color: #f7f7f7;
+}
+
+.modalMoreContent h4 {
+    padding: 1rem;
+    margin: 0;
+}
+.modalMoreContent h4:hover {
+    cursor: pointer;
+    background-color: #f7f7f7;
+}
+
+.modalMoreContent hr {
+    width: 80%;
+    color: var(--twitter-hover);
+    opacity: 40%;
+}
+
+.buttonTweet .MuiSvgIcon-root {
+    display: none;
+}
+.leftPart .componentsMenu {
+    position: relative;
+}
+
+.leftPart .hideMe {
+    display: none;
+}
+
+.leftPart .leftOptions:hover + .hideMe {
+    display: block;
+    position: absolute;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 0.7rem;
+    background-color: rgb(45, 52, 58);
+    color: white;
+    border-radius: none;
+    z-index: 2;
+}
+
+.leftPart .leftOptions:hover {
+    background-color: var(--twitter-hover);
+    border-radius: 30px;
+    max-width: fit-content;
+    color: var(--twitter-color);
+}
+
+@media screen and (max-width: 1200px) {
+    .leftPart .buttonTweet {
+        max-width: fit-content;
+        border-radius: 100%;
+        padding: 0;
+    }
+
+    .modalMore {
+        bottom: 16rem;
+    }
+    .buttonTweet .MuiSvgIcon-root {
+        display: inline-block;
+    }
+    .leftPart button.buttonTweetAfter {
+        font-size: 0;
+    }
+
+    .leftPart {
+        min-width: unset;
+    }
+    .leftPart .textProfile {
+        display: none;
+    }
+
+    .leftPart .profileUser {
+        max-width: fit-content;
+        padding: 0.6rem;
+        text-align: center;
+    }
+
+    .leftPart .avatarProfile {
+        margin-right: 0;
+    }
+
+    .leftPart .profileUser .MuiSvgIcon-root {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    .modalContentVerified {
+        width: 60%;
+        height: 60%;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .modalTweetDirect {
+        width: 70%;
+    }
+    .modalContentVerified {
+        width: 60%;
+        height: 60%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .modalContentVerified {
+        width: 80%;
+        height: 80%;
+    }
+}

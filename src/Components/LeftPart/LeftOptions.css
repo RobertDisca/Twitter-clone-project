@@ -1,0 +1,44 @@
+.leftOptions {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.leftOptions .MuiSvgIcon-root {
+    padding: 10px 20px;
+}
+
+.leftOptions p {
+    font-size: 20px;
+    margin: 0 20px 0 0;
+}
+
+.leftOptions--active {
+    color: var(--twitter-color);
+    font-weight: 700;
+}
+
+@media screen and (max-width: 1200px) {
+    .leftOptions {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        justify-content: center;
+        max-width: fit-content;
+        margin: auto;
+    }
+    /* .leftOptions:hover {
+        background-color: var(--twitter-hover);
+        border-radius: 30px;
+        max-width: fit-content;
+        color: var(--twitter-color);
+    } */
+    .leftOptions p {
+        display: none;
+    }
+
+    .leftOptions .MuiSvgIcon-root {
+        padding: 0.6rem;
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,17 @@
+.utileLink {
+    padding: 1rem;
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+.utileLink span {
+    font-size: 0.8rem;
+    color: gray;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.utileLink span:hover {
+    border-bottom: 1px solid grey;
+}

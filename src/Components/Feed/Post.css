@@ -1,0 +1,132 @@
+.postCard {
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid var(--twitter-hover);
+    padding-bottom: 10px;
+    width: 100%;
+    margin-right: 20px;
+}
+
+.postCard:hover {
+    background-color: #f5f8fa;
+}
+
+.postAvatar {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.postHeaderText {
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.postUserName {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.postVerified {
+    margin-left: 3px;
+    vertical-align: bottom;
+    color: var(--twitter-color);
+    font-size: 1rem !important;
+}
+
+.postHeaderSpecial {
+    font-weight: 600;
+    font-size: 15px;
+    color: gray;
+    cursor: pointer;
+}
+
+.postDescription p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.postBody {
+    padding-right: 30px;
+    max-width: 560px;
+}
+
+.postMain {
+    /* flex: 1; */
+    padding-top: 10px;
+}
+
+.postMain img {
+    border-radius: 20px;
+    width: 100%;
+}
+
+.postFooter {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.postFooter .commentIcon {
+    display: flex;
+    align-items: center;
+}
+.postBody .postFooter {
+    padding: 10px;
+    cursor: pointer;
+    color: #808080;
+}
+.mediaIconsComm {
+    position: relative;
+}
+
+.hideComm {
+    display: none;
+    text-align: center;
+    padding: 2px;
+    border-radius: 2px;
+}
+
+.postBody .postFooter .MuiSvgIcon-root {
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+.postFooter .MuiSvgIcon-root:hover + .hideComm {
+    display: block;
+    position: absolute;
+    bottom: -1.6rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 0.7rem;
+    background-color: rgb(45, 52, 58, 0.5);
+    color: white;
+    border-radius: none !important;
+}
+
+.postFooter .reTweet.MuiSvgIcon-root:hover {
+    background-color: #e1f1ea;
+    color: #54bb7d;
+    opacity: 60%;
+    border-radius: 100%;
+}
+
+.postFooter .chartIcon.MuiSvgIcon-root:hover {
+    background-color: #e0edf6;
+    color: #7dc2f1;
+    border-radius: 100%;
+}
+
+.postFooter .shareIcon.MuiSvgIcon-root:hover {
+    background-color: #e0edf6;
+    color: #7dc2f1;
+    border-radius: 100%;
+}
+
+/* .commentsSectionPost {
+    width: auto;
+    max-width: 100%;
+} */
